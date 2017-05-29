@@ -160,7 +160,7 @@ body {
 ================================ */
 
 .full-width-img {
-  background: url('http://i1159.photobucket.com/albums/p625/ivanrdvc/bg-cp-header_zps4ghnoxc7.jpg') no-repeat center center;
+  background: url('../images/kitchentileremodel.jpg') no-repeat 45% 10%;
   background-size: cover;
   text-align: center;
   padding-top: 100px;
@@ -372,6 +372,41 @@ body {
   color: rgba(255, 255, 255, 0.4);
   font-size: 1.3rem;
   line-height: 1.8;
+}
+
+.social-links a{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 4px;
+  height: 80px;
+  width: 80px;
+  font-size: 3.6rem;
+  line-height: 2.3;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.social-links a:hover{
+  color: rgba(188, 26, 4, 1);
+  border-bottom: none;
+}
+
+.tilefooter{
+  color: white;
+  font-size: 32px;
+  letter-spacing: 0.55rem;
+}
+
+.tileguyline{
+  margin-top: 0px;
+  margin-bottom: -15px;
+  border-bottom-width: 4px;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ededed;
 }
 
 
