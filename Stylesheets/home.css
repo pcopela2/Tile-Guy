@@ -244,3 +244,133 @@ body {
   letter-spacing: 2px;
   font-size: 2.7rem;
 }
+
+.full-width-prettyback {
+  background: url('../images/prettybackdrop.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  height: 450px;
+  color: #fff;
+}
+
+.row{
+  margin: 0;
+}
+
+.row .our{
+  text-align: center; 
+  font-style: italic; 
+  font: 300 "Lato", serif;
+  font-size: 32px;
+  margin-top: -15px;
+  color: rgb(136, 136, 136);
+}
+
+.row .work{
+  display:block;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:44px;
+  line-height:44px;
+  color:#424242;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: -5px;
+}
+
+.row .divider-line{
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-bottom-width: 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: navy;
+  border-bottom: 10px solid navy;
+}
+
+.row .aboutwork{
+  display: block;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #626262;
+  padding-bottom: 20px;
+}
+
+.row .prettybutton{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: transparent !important;
+  border-color: navy;
+  border: 2px solid navy;
+  color: navy !important;
+  padding: 11px 21px 12px;
+}
+
+.serviceline{
+  height: 4px;
+  background-color: navy;
+  width: 100%;
+}
+
+.services p{
+  font-size: 2.1rem;
+  font-family: 'exolight', sans-serif;
+  line-height: .10;
+  text-transform: uppercase;
+  color: #666666;
+  letter-spacing: 1px;
+}
+
+.services p::before{
+  content: "» ";
+  color: navy;
+}
+
+.sub-footer{
+  background: rgba(188, 26, 4, 1);
+  padding-top: 110px;
+  padding-bottom: 110px;
+  padding-right: 0px;
+  padding-left: 0px;  
+}
+
+.subfooter{
+  color: white;
+  text-align: center;
+  font-family: 'exobold', sans-serif;
+  letter-spacing: 2px;
+  font-size: 3.9rem;
+}
+
+.questionline{
+  margin-top: 24px;
+  margin-bottom: 30px;
+  border-bottom-width: 4px;
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ededed;
+}
+
+.fa-arrow-down:before{
+  content: "\f063";
+  color: white;
+  font-size: 42px;
+}
+
+.footer{
+  padding: 80px 0 50px;
+  background-color: #2A3A3F;;
+  text-align: center
+}
+
+.made-by-me{
+  margin: 24px 0;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1.3rem;
+  line-height: 1.8;
+}
+
