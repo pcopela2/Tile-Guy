@@ -205,8 +205,8 @@ body {
 
 .section-black,
 .section-white {
+  color: rgba(188, 26, 4, 1);
   padding: 50px 0;
-  color: #fff;
   line-height: 1.7;
 }
 
@@ -374,3 +374,60 @@ body {
   line-height: 1.8;
 }
 
+
+
+
+
+
+
+
+
+/* ================ Custom HomePage ================ */
+li {list-style: none;}
+
+.fa-stack {z-index: 2;}
+
+.box-text {
+  font-size: 1.5em;
+  font-weight: 200;
+  color: white;
+  display: inline-block;
+  background-color: navy;
+  padding: 18px;
+  width: 70%;
+  padding-left: 50px;
+  position: absolute;
+  left: 100px;
+}
+
+.service-strip1 {top: 6px}
+.service-strip2 {top: 90px}
+.service-strip3 {top: 175px}
+
+
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .box-text {width: 80%; font-size: 1.4em}
+}
+
+/* ================ IPHONE 6S ================ */
+@media (max-width: 450px) {
+  .section-black .container .row .col-sm-6 ul {padding-left: 0px;}
+
+  .box-text {
+    font-size: 1.2em;
+    left: 60px;
+    padding-bottom: 25px;
+  }
+}
+
+/* ================ IPHONE SE ================ */
+@media (max-width: 375px) {
+  .box-text {
+      font-size: .9em;
+      left: 60px;
+      padding-bottom: 30px;
+    }
+
+    .years-experience 
+}
