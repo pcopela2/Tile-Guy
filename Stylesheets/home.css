@@ -4,6 +4,7 @@
 
 body {
   font-family: "Open Sans", Helvetica, sans-serif;
+  overflow: auto;
 }
 
 /* # Header, Main Menu
@@ -184,7 +185,6 @@ body {
 }
 
 @media (min-width: 768px) {
-
   .full-width-img {
     padding-top: 110px;
     height: 1000px;
@@ -200,6 +200,23 @@ body {
     padding: 80px 20px;
   }
 }
+
+/* # Header text
+================================ */
+.textheader{
+  color: white;
+  font-size: 65px;
+  letter-spacing: 1.2rem;
+  font-weight: bold;
+  padding-top: 285px;
+  padding-left: 40px;
+  margin: 0 auto;
+}
+
+
+
+
+
 /* # Section Black, White
 ================================ */
 
@@ -302,11 +319,18 @@ body {
 .row .prettybutton{
   padding-left: 20px;
   padding-right: 20px;
-  background-color: transparent !important;
+  background-color: transparent;
   border-color: navy;
   border: 2px solid navy;
-  color: navy !important;
+  color: navy;
   padding: 11px 21px 12px;
+  text-decoration: none;
+}
+
+.row .prettybutton:hover{
+  background-color: navy;
+  color: white;
+  text-decoration: none;
 }
 
 .serviceline{
@@ -329,10 +353,12 @@ body {
   color: navy;
 }
 
+
+/* ================ Have any questions section ================ */
 .sub-footer{
   background: rgba(188, 26, 4, 1);
   padding-top: 110px;
-  padding-bottom: 110px;
+  padding-bottom: 100px;
   padding-right: 0px;
   padding-left: 0px;  
 }
@@ -361,10 +387,36 @@ body {
   font-size: 42px;
 }
 
+.questioncontent{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.questionbutton{
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: transparent;
+  border-color: white;
+  border: 2px solid white;
+  color: white;
+  padding: 11px 21px 12px;
+  text-decoration: none;
+}
+
+.questionbutton:hover{
+  background-color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  color: rgba(188, 26, 4, 1); 
+}
+
+
+
+/* ================ Custom Footer ================ */
 .footer{
   padding: 80px 0 50px;
-  background-color: #2A3A3F;;
-  text-align: center
+  background-color: #2A3A3F;
+  text-align: center;
 }
 
 .made-by-me a{
