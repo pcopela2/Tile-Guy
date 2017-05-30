@@ -213,12 +213,30 @@ body {
   margin: 0 auto;
 }
 
+@media (max-width: 764px) {
+  .textheader {
+    padding-top: 0;
+    font-size: 55px;
+  }
+  .full-width-img{
+    background: url('../images/kitchentileremodel.jpg') no-repeat 48% 10%;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    height: 450px;
+    color: #fff;
+  }
+}
+
 
 
 
 
 /* # Section Black, White
 ================================ */
+.col-sm-6 .besttiletext{
+  color: #424242;
+}
 
 .section-black,
 .section-white {
@@ -242,7 +260,7 @@ body {
 }
 
 .section-white {
-  background: #f3f3f3;
+  background: url('../images/american-flag.jpg') no-repeat center center;
   color: #0e0d0e;
 }
 
@@ -303,8 +321,8 @@ body {
   width: 30%;
   margin-left: auto;
   margin-right: auto;
-  border-color: navy;
-  border-bottom: 10px solid navy;
+  border-color: #00304A;
+  border-bottom: 10px solid #00304A;
 }
 
 .row .aboutwork{
@@ -320,22 +338,22 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   background-color: transparent;
-  border-color: navy;
-  border: 2px solid navy;
-  color: navy;
+  border-color: #00304A;
+  border: 2px solid #00304A;
+  color: #00304A;
   padding: 11px 21px 12px;
   text-decoration: none;
 }
 
 .row .prettybutton:hover{
-  background-color: navy;
+  background-color: #00304A;
   color: white;
   text-decoration: none;
 }
 
 .serviceline{
   height: 4px;
-  background-color: navy;
+  background-color: #00304A;
   width: 100%;
 }
 
@@ -350,8 +368,23 @@ body {
 
 .services p::before{
   content: "» ";
-  color: navy;
+  color: #00304A;
 }
+
+.servicespacer{
+  padding-left: 125px;
+  padding-top: 35px;
+}
+
+@media (max-width: 993px) {
+  .servicespacer {padding-left: 0px;}
+  .section-white {
+    background: url('none');
+    background: #f3f3f3;
+  }
+}
+
+
 
 
 /* ================ Have any questions section ================ */
@@ -485,7 +518,7 @@ li {list-style: none;}
   font-weight: 200;
   color: white;
   display: inline-block;
-  background-color: navy;
+  background-color: #354E71;
   padding: 18px;
   width: 70%;
   padding-left: 50px;
