@@ -1,0 +1,351 @@
+/* # General
+================================ */
+
+body {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  overflow: auto;
+}
+
+/* # Header, Main Menu
+================================ */
+
+.navbar {
+  opacity: 1;
+  margin-bottom: 0;
+  background-color: #fff;
+  transition: all 0.2s ease-out;
+}
+
+.navbar-container {
+  position: relative;
+}
+
+.navbar .navbar-nav li a {
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #2E1C05;
+  transition: all 0.2s ease-out;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  transition: all 0.2s ease-out;
+}
+
+.navbar-scroll {
+  opacity: 1;
+}
+
+#top-social-menu {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .navbar {
+    height: 120px;
+  }
+
+  .navbar-nav>li>a {
+    padding: 0;
+    margin-top: 35px;
+    margin-left: 50px;
+    line-height: 70px;
+  }
+
+  .navbar-brand {
+    font-size: 28px;
+    padding: 0;
+    height: 120px;
+    line-height: 120px;
+  }
+
+  #top-social-menu {
+    display: initial;
+  }
+
+  /* Navbar when scrolled */
+
+  .navbar-scroll {
+    height: 70px;
+  }
+
+  .navbar-scroll #top-social-menu {
+    display: none;
+    transition: all 0.2s ease-out;
+  }
+
+  .navbar-scroll .navbar-brand {
+    height: 70px;
+    line-height: 70px;
+  }
+
+  .navbar-scroll .navbar-nav>li>a {
+    opacity: 1;
+    padding: 0;
+    margin-top: 0;
+  }
+}
+
+/* # Hover Link Effect
+================================ */
+@media (min-width: 768px) {
+  .navbar-nav>li>a::after {
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background: #2E1C05;
+    content: '';
+    opacity: 0;
+    transition: height 0.3s, opacity 0.3s, transform 0.3s;
+    transform: translateY(-10px);
+  }
+
+  .navbar-nav>li>a:hover::after,
+  .navbar-nav>li>a:focus::after {
+    height: 2px;
+    opacity: 0;
+    transform: translateY(0px);
+  }
+}
+
+/* # Social menu
+================================ */
+
+#top-social-menu {
+  position: absolute;
+  top: 7px;
+  right: 0;
+  font-size: 12px;
+  z-index: 101;
+  padding-right: 0px;
+  list-style: none;
+  color: #2E1C05;
+  transition: all 0.2s ease-out;
+}
+
+#top-social-menu li {
+  float: left;
+  padding: 10px 15px;
+}
+
+#top-social-menu li:last-child {
+  padding-right: 0;
+}
+
+#top-social-menu li a {
+  text-decoration: none;
+  color: #2E1C05;
+}
+
+#top-social-menu li a:hover {
+  text-decoration: none;
+  color: rgba(188, 26, 4, 1);
+}
+
+#top-social-menu i {
+  font-size: 16px;
+  
+  transition: all 0.2s ease-in;
+}
+
+#top-social-menu i:hover {
+  text-decoration: none;
+  color: rgba(188, 26, 4, 1);
+}
+
+
+/* # gallary top image
+================================ */
+.full-width-prettyback {
+  background: url('../images/prettybackdrop.jpg') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  height: 450px;
+  color: #fff;
+}
+
+.row{
+  margin: 0;
+}
+
+.row .work{
+  padding-top: 100px;
+  display:block;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:44px;
+  line-height:44px;
+  color:#424242;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: -5px;
+}
+
+.row .divider-line{
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-bottom-width: 10px;
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  border-color: #00304A;
+  border-bottom: 10px solid #00304A;
+}
+
+.row .aboutwork{
+  display: block;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+  line-height: 30px;
+  color: #626262;
+  padding-bottom: 20px;
+}
+
+.serviceline{
+  height: 4px;
+  background-color: #00304A;
+  width: 100%;
+}
+
+.services p{
+  font-size: 2.1rem;
+  font-family: 'exolight', sans-serif;
+  line-height: .10;
+  text-transform: uppercase;
+  color: #666666;
+  letter-spacing: 1px;
+}
+
+
+/* ================ Gallary Body ================ */
+
+.gallarybody{
+  height: 100%;
+  width: 100%;
+  background-color: white;
+
+}
+
+/*--- PORTFOLIO ---*/
+.content-section .thumbnail { 
+  position: relative; 
+  overflow: hidden; 
+  cursor: pointer; 
+}
+
+.content-section .thumbnail * { 
+  transition: all .25s; 
+}
+
+.content-section .thumbnail h4 { 
+  font-size: 19px; 
+  font-weight: 400; 
+}
+
+.content-section .thumbnail p { 
+  line-height: 24px; 
+}
+
+.content-section .thumbnail:hover h4, .content-section .thumbnail:hover p {
+ color: #AFAFAF; 
+}
+
+.content-section .thumbnail:hover img { 
+  opacity: 0.25;  
+}
+
+.content-section .thumbnail:after { 
+  font-family: 'FontAwesome'; 
+  content: '\f030'; 
+  color: #FFF; 
+  font-size: 48px; 
+  line-height: 80px; 
+  top: 70%; 
+  position: absolute; 
+  text-align: center; 
+  display: inline-block; 
+  width: 100%; 
+  transition: all .75s; 
+  opacity: 0; 
+  width: 86px; 
+  height: 86px; 
+  margin-left: auto; 
+  margin-right: auto; 
+  left: 0; 
+  right: 0; 
+  border-radius: 50%; 
+  background: transparent; 
+  border:3px solid transparent; 
+}
+
+.content-section .thumbnail:hover:after { 
+  top: 25%; 
+  opacity: 1; 
+  color: #FFFFFF; 
+  background: #00304A; 
+  border:3px solid #FFFFFF; 
+}
+
+
+
+
+
+
+/* ================ Custom Footer ================ */
+.footer{
+  padding: 80px 0 50px;
+  background-color: #2A3A3F;
+  text-align: center;
+}
+
+.made-by-me a{
+  margin: 24px 0;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 1.3rem;
+  line-height: 1.8;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.made-by-me a:hover{
+  color: rgba(188, 26, 4, 1);
+}
+
+.social-links a{
+  display: inline-block;
+  text-decoration: none;
+  margin: 0 4px;
+  height: 80px;
+  width: 80px;
+  font-size: 3.6rem;
+  line-height: 2.3;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 50px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.social-links a:hover{
+  color: rgba(188, 26, 4, 1);
+  border-bottom: none;
+}
+
+.tilefooter{
+  color: white;
+  font-size: 32px;
+  letter-spacing: 0.55rem;
+}
+
+.tileguyline{
+  margin-top: 0px;
+  margin-bottom: -15px;
+  border-bottom-width: 4px;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #ededed;
+}

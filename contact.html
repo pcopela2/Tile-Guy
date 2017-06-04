@@ -58,7 +58,7 @@
     </header>
 
     <div class="contact-header">
-      
+      <h1>Contact Us</h1>
     </div>
     <div class="fluid-container">
       <div class="row">
@@ -66,37 +66,37 @@
 
           <h3 style="padding-left: 130px">Quick Contact</h3>
           <div class="border"></div>
-          <form class="form-horizontal" method="post" action="obx_bryan@hotmail.com">
+          <form class="form-horizontal" name="contactform" method="post" action="https://formspree.io/bryan_macdonald@outlook.com">
             <div class="label-text">
               <label for="firstname">Name</label>
             </div>
             <div class="row">
               <div class="col-xs-6">
-                <input type="text" class="form-control" id="firstname" placeholder="First" required>
+                <input type="text" class="form-control" id="firstname" name="first_name" placeholder="First" required>
               </div>
               <div class="col-xs-6">
-                <input type="text" class="form-control" placeholder="Last" required>
+                <input type="text" class="form-control" name="last_name" placeholder="Last" required>
               </div>
             </div>
 
             <div class="label-text">
               <label for="email">Email</label>
               <div class="textbox-center">
-                <input type="email" class="form-control" id="email" placeholder="Email" required>
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
               </div>
             </div>
 
             <div class="label-text">
               <label for="phone">Phone Number</label>
               <div class="textbox-center">
-                <input type="phone" class="form-control" id="phone" placeholder="Phone Number">
+                <input type="phone" class="form-control" name="telephone" id="phone" placeholder="Phone Number">
               </div>
             </div>
 
             <div class="label-text">
               <label for="email">Message</label>
               <div class="textbox-center">
-                <textarea class="form-control" rows="3" placeholder="Send a Message." required></textarea>
+                <textarea class="form-control" rows="3" name="message" placeholder="Send a Message." required></textarea>
               </div>
             </div>
 
