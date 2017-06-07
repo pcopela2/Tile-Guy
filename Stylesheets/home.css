@@ -207,6 +207,7 @@ body {
 /* # Header text
 ================================ */
 .textheader{
+  opacity: 0;
   color: white;
   font-size: 65px;
   letter-spacing: 1.2rem;
@@ -214,6 +215,12 @@ body {
   padding-top: 285px;
   padding-left: 40px;
   margin: 0 auto;
+    -webkit-transition: opacity 1.3s ease, -webkit-transform 1s ease;
+  transition: opacity 1.3s ease, -webkit-transform 1s ease;
+  transition: transform 1s ease, opacity 1s ease;
+  transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease;
+  -webkit-transform: translateY(-40px);
+          transform: translateY(-40px);
 }
 
 .textsubheader{
@@ -239,7 +246,11 @@ body {
   }
 }
 
-
+.textheader.fadeIn {
+  opacity: 1;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
 
 
 

@@ -7,3 +7,9 @@ $(window).scroll(function () {
     $("#main-navbar").removeClass("navbar-scroll")
   }
 });
+
+$(function() {
+  setTimeout(function() {
+    $('.textheader').addClass('fadeIn');
+  }, 300);
+});
