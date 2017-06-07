@@ -6,6 +6,7 @@ body {
   overflow: auto;
   color: #555;
   color: #7c8891;
+  font: 16px/22px "Proxima Nova", sans-serif;
   background: #ebedee;
 }
 
@@ -42,10 +43,6 @@ h1 {
 .navbar-brand {
   font-size: 25px;
   transition: all 0.2s ease-out;
-}
-
-.navbar-header .navbar-brand:hover{
-    color: rgba(188, 26, 4, 1);
 }
 
 .navbar-scroll {
@@ -163,7 +160,6 @@ h1 {
 
 #top-social-menu i {
   font-size: 16px;
-  
   transition: all 0.2s ease-in;
 }
 
@@ -173,73 +169,11 @@ h1 {
 }
 
 
-/* # gallary top image
-================================ */
-.full-width-prettyback {
-  background: url('../images/prettybackdrop.jpg') no-repeat center center;
-  background-size: cover;
-  text-align: center;
-  padding-top: 100px;
-  height: 450px;
-  color: #fff;
-}
-
-.row{
-  margin: 0;
-}
-
-.row .work{
-  padding-top: 100px;
-  display:block;
-  text-transform:uppercase;
-  letter-spacing:1px;
-  font-size:44px;
-  line-height:44px;
-  color:#424242;
-  font-weight: bold;
-  font-size: 45px;
-  padding-bottom: -5px;
-}
-
-.row .divider-line{
-  margin-top: 24px;
-  margin-bottom: 24px;
-  border-bottom-width: 10px;
-  width: 30%;
-  margin-left: auto;
-  margin-right: auto;
-  border-color: #00304A;
-  border-bottom: 10px solid #00304A;
-}
-
-.row .aboutwork{
-  display: block;
-  letter-spacing: 0.2px;
-  font-size: 20px;
-  line-height: 30px;
-  color: #626262;
-  padding-bottom: 20px;
-}
-
-.serviceline{
-  height: 4px;
-  background-color: #00304A;
-  width: 100%;
-}
-
-.services p{
-  font-size: 2.1rem;
-  font-family: 'exolight', sans-serif;
-  line-height: .10;
-  text-transform: uppercase;
-  color: #666666;
-  letter-spacing: 1px;
-}
 
 /* # gallary top image
 ================================ */
 .full-width-prettyback {
-  background: url('../images/prettybackdrop.jpg') no-repeat center center;
+  background: url('../images/Tile-Guys-About.jpg') no-repeat top center;
   background-size: cover;
   text-align: center;
   padding-top: 100px;
@@ -306,15 +240,15 @@ h1 {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
 @media (min-width: 768px) {
   .profilewrapper {
@@ -365,10 +299,27 @@ h1 {
 }
 
 .profile {
-  position: absolute;
-  text-align: left;
   width: 450px;
   height: 100%;
+}
+
+.profile-left {
+  position: absolute;
+  text-align: left;
+}
+
+.profile-right {
+  position: absolute;
+  text-align: right;
+  right: 0;
+}
+
+.portfolio-left {
+  margin-right: 200px;
+}
+
+.portfolio-right {
+  margin-left: 200px;
 }
 
 .profile .meta {
@@ -402,7 +353,6 @@ h1 {
 }
 
 .portfolio {
-  margin-left: 200px;
   padding: 50px !important;            
 }
 
@@ -426,10 +376,6 @@ h1 {
     text-align: center;
   }
 }
-
-
-
-
 
 
 
@@ -487,18 +433,4 @@ h1 {
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #ededed;
-}
-
-@media screen and (max-width: 361px) {
-  .social-links a{
-    height: 78px;
-    width: 78px;
-  }
-}
-
-@media screen and (max-width: 321px) {
-  .social-links a{
-    height: 73px;
-    width: 69px;
-  }
 }

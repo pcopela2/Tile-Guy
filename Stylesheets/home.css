@@ -405,9 +405,21 @@ body {
   }
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 1200px) {
   .services p{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 974px) {
+  .services p{
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 766px) {
+  .services p{
+    font-size: 1.7rem;
   }
 }
 

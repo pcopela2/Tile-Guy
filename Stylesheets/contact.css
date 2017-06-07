@@ -239,8 +239,8 @@ textarea {
   font-size: 2.7rem;
 }
 
-.inner-action a {color: white;}
-.inner-action a:hover {color: navy;}
+.inner-action a {color: white; text-decoration: none;}
+.inner-action a:hover {color: white;}
 
 /* Contact Form Break */
 @media (max-width: 767px) {
