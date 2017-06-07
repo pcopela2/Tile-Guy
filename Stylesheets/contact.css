@@ -3,9 +3,8 @@
 
 body {
   font-family: "Open Sans", Helvetica, sans-serif;
+  overflow: auto;
 }
-
-a, a:hover {text-decoration: none;}
 
 /* # Header, Main Menu
 ================================ */
@@ -31,6 +30,10 @@ a, a:hover {text-decoration: none;}
 .navbar-brand {
   font-size: 25px;
   transition: all 0.2s ease-out;
+}
+
+.navbar-header .navbar-brand:hover{
+    color: rgba(188, 26, 4, 1);
 }
 
 .navbar-scroll {
@@ -127,13 +130,6 @@ a, a:hover {text-decoration: none;}
   transition: all 0.2s ease-out;
 }
 
-#contact-social {text-align: center; padding-left: 0px;}
-
-#contact-social li {
-  list-style: none;
-  display: inline-block;
-}
-
 #top-social-menu li {
   float: left;
   padding: 10px 15px;
@@ -150,7 +146,7 @@ a, a:hover {text-decoration: none;}
 
 #top-social-menu li a:hover {
   text-decoration: none;
-  color: #543A1A;
+  color: rgba(188, 26, 4, 1);
 }
 
 #top-social-menu i {
@@ -161,7 +157,7 @@ a, a:hover {text-decoration: none;}
 
 #top-social-menu i:hover {
   text-decoration: none;
-  color: #543A1A;
+  color: rgba(188, 26, 4, 1);
 }
 
 
@@ -313,4 +309,18 @@ textarea {
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #ededed;
+}
+
+@media screen and (max-width: 361px) {
+  .social-links a{
+    height: 78px;
+    width: 78px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .social-links a{
+    height: 73px;
+    width: 69px;
+  }
 }

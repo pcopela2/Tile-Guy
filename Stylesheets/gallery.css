@@ -32,6 +32,10 @@ body {
   transition: all 0.2s ease-out;
 }
 
+.navbar-header .navbar-brand:hover{
+    color: rgba(188, 26, 4, 1);
+}
+
 .navbar-scroll {
   opacity: 1;
 }
@@ -348,4 +352,18 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-bottom: 1px solid #ededed;
+}
+
+@media screen and (max-width: 361px) {
+  .social-links a{
+    height: 78px;
+    width: 78px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .social-links a{
+    height: 73px;
+    width: 69px;
+  }
 }

@@ -1,4 +1,3 @@
-
 /* # General
 ================================ */
 
@@ -33,6 +32,10 @@ body {
   transition: all 0.2s ease-out;
 }
 
+.navbar-header .navbar-brand:hover{
+    color: rgba(188, 26, 4, 1);
+}
+
 .navbar-scroll {
   opacity: 1;
 }
@@ -59,10 +62,6 @@ body {
     padding: 0;
     height: 120px;
     line-height: 120px;
-  }
-
-  .navbar-header .navbar-brand:hover{
-    color: rgba(188, 26, 4, 1);
   }
 
   #top-social-menu {
@@ -147,7 +146,7 @@ body {
 
 #top-social-menu li a:hover {
   text-decoration: none;
-  color: #543A1A;
+  color: rgba(188, 26, 4, 1);
 }
 
 #top-social-menu i {
@@ -158,7 +157,7 @@ body {
 
 #top-social-menu i:hover {
   text-decoration: none;
-  color: #543A1A;
+  color: rgba(188, 26, 4, 1);
 }
 
 /* # Section Full Width Image
@@ -406,6 +405,13 @@ body {
   }
 }
 
+@media screen and (max-width: 361px) {
+  .services p{
+    font-size: 1.8rem;
+  }
+}
+
+
 
 
 
@@ -522,7 +528,19 @@ body {
   border-bottom: 1px solid #ededed;
 }
 
+@media screen and (max-width: 361px) {
+  .social-links a{
+    height: 78px;
+    width: 78px;
+  }
+}
 
+@media screen and (max-width: 321px) {
+  .social-links a{
+    height: 73px;
+    width: 69px;
+  }
+}
 
 
 
@@ -578,4 +596,12 @@ li {list-style: none;}
     }
 
     .years-experience 
+}
+
+@media (max-width: 320px) {
+  .box-text{
+      font-size: .8em;
+      left: 60px;
+      padding-bottom: 30px;
+    }
 }
