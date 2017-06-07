@@ -45,6 +45,10 @@ h1 {
   transition: all 0.2s ease-out;
 }
 
+.navbar-header .navbar-brand:hover{
+    color: rgba(188, 26, 4, 1);
+}
+
 .navbar-scroll {
   opacity: 1;
 }
@@ -160,6 +164,7 @@ h1 {
 
 #top-social-menu i {
   font-size: 16px;
+  
   transition: all 0.2s ease-in;
 }
 
@@ -167,8 +172,6 @@ h1 {
   text-decoration: none;
   color: rgba(188, 26, 4, 1);
 }
-
-
 
 /* # gallary top image
 ================================ */
@@ -288,6 +291,10 @@ h1 {
     width: 100%;
     min-width: 350px;
   }
+  .full-width-prettyback {
+    margin-top: 40px;
+  }
+
 }
 .procontainer > div {
   box-sizing: border-box;
@@ -299,6 +306,20 @@ h1 {
     padding: 15px; 
   }
 }
+
+@media (min-width: 1000px) {
+  .full-width-prettyback {
+    margin-top: 120px;
+    background-position: top center;
+  }
+}
+
+/*@media (min-width: 1300px) {
+  .full-width-prettyback {
+    margin-top: 120px;
+    background-position: top center;
+  }
+}*/
 
 .profile {
   width: 450px;
