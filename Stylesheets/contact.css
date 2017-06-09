@@ -160,21 +160,52 @@ body {
   color: rgba(188, 26, 4, 1);
 }
 
+/* # gallary top image
+================================ */
+.full-width-prettyback {
+  background: url(../images/Kitchen-Backsplash.jpg) no-repeat center center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  height: 450px;
+  color: #fff;
+}
+
+
+.row .work{
+  padding-top: 100px;
+  display:block;
+  text-transform:uppercase;
+  letter-spacing:1px;
+  font-size:44px;
+  line-height:44px;
+  color:white;
+  font-weight: bold;
+  font-size: 45px;
+  padding-bottom: -5px;
+}
+
+.row .aboutwork{
+  display: block;
+  letter-spacing: 0.2px;
+  font-size: 20px;
+  line-height: 30px;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.services p{
+  font-size: 2.1rem;
+  font-family: 'exolight', sans-serif;
+  line-height: .10;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 1px;
+}
+
 
 /* # Contact Layout
 ================================ */
-
-.row {margin-right: 0px;}
-
-.contact-header {
-  width: 100%;
-  background: url(../images/Kitchen-Backsplash.jpg) no-repeat center center;
-  background-size: cover;
-  height: 480px;
-  display: block;
-  background-color: #f3f3f3;
-}
-
 .contact-header h1 {
   color: white;
 }
@@ -182,6 +213,8 @@ body {
 .fluid-container {
   background-color: #f3f3f3;
   padding-bottom: 60px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .col-sm-8 h3, .col-sm-4 h3 {text-align: center}
@@ -194,6 +227,14 @@ body {
     padding-left: 0px;
 }
 
+.elementcenter{
+  max-width: 1400px;
+  margin-right: auto; 
+  margin-left: auto;
+  padding-left: 50px;
+  padding-right: 50px; 
+}
+
 .label-text{
   text-align: left;
   margin-top: 25px;
@@ -203,6 +244,9 @@ body {
   text-align: center;
 }
 
+.required{
+  color: rgba(188, 26, 4, 1);
+}
 
 .btn-success {
   background-color: white;
@@ -210,13 +254,13 @@ body {
   font-size: 2rem;
   font-weight: 200;
   margin-top: 20px;
-  width: 30%;
+  width: 40%;
 }
 
 form.form-horizontal {
   margin: 0 auto;
-  padding-left: 200px;
-  padding-right: 70px;
+  padding: 5px 35px 35px 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
 }
 
 textarea {
@@ -241,6 +285,28 @@ textarea {
 
 .inner-action a {color: white; text-decoration: none;}
 .inner-action a:hover {color: white;}
+
+.contactimage{
+  background: url(../images/Contact-Tile-Guys.jpg) no-repeat top center;
+  background-size: cover;
+  text-align: center;
+  padding-top: 100px;
+  height: 475px;
+  color: #fff;
+}
+
+@media (max-width:1150px) and (min-width:769px) {
+  .contactimage{
+    background: url(../images/Contact-Tile-Guys.jpg) no-repeat top center;
+    background-size: cover;
+    text-align: center;
+    padding-top: 100px;
+    height: 475px;
+    width: 350px;
+    color: #fff;
+  }
+}
+
 
 /* Contact Form Break */
 @media (max-width: 767px) {
