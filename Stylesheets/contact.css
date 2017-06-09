@@ -231,7 +231,6 @@ body {
   max-width: 1400px;
   margin-right: auto;
   margin-left: auto;
-  margin-left: 12%;
   padding-left: 50px;
   padding-right: 50px; 
 }
@@ -293,6 +292,7 @@ textarea {
   text-align: center;
   padding-top: 100px;
   height: 475px;
+  width: 575px;
   color: #fff;
 }
 
