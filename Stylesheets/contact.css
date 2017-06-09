@@ -224,7 +224,7 @@ body {
 }
 
 .form-horizontal .row .col-xs-8 {
-    padding-left: 0px;
+  padding-left: 0px;
 }
 
 .elementcenter{
@@ -260,7 +260,8 @@ body {
 form.form-horizontal {
   margin: 0 auto;
   padding: 5px 35px 35px 25px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  background-color: white;
 }
 
 textarea {
