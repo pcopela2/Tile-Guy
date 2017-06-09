@@ -229,7 +229,9 @@ body {
 
 .elementcenter{
   max-width: 1400px;
+  margin-right: auto;
   margin-left: auto;
+  margin-left: 12%;
   padding-left: 50px;
   padding-right: 50px; 
 }
