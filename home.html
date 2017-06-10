@@ -15,11 +15,38 @@
     <script src="Javascript/bootstrap.min.js"></script>
     <script src="Javascript/home.js"></script>
     
+    <script>
+      $(document).ready(function(){
+            // hide our element on page load
+        $('.element-to-animate').css('opacity', 0);
+     
+        $('.element-to-animate').waypoint(function() {
+          $('.fadein1').addClass('fadeInLeft');
+        }, { offset: '10%' });
+
+        $('.element-to-animate').waypoint(function() {
+          $('.fadein2').addClass('fadeInUp');
+        }, { offset: '90%' });
+
+        $('.element-to-animate').waypoint(function() {
+          $('.fadein3').addClass('fadeInRight');
+        }, { offset: '80%' });
+
+        $('.element-to-animate').waypoint(function() {
+          $('.service2').addClass('fadeInDown');
+        }, { offset: '30%' });
+
+        $('.element-to-animate').waypoint(function() {
+          $('.service3').addClass('fadeInDown');
+        }, { offset: '25%' });
+      });
+    </script>
 
     <title>Tile Guy USA</title>
 
     <!-- Bootstrap core CSS -->
     <link href="Stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="Stylesheets/animate.css" rel="stylesheet" >
 
 
     <!-- Custom styles for this template -->
@@ -60,21 +87,25 @@
     </header>
 
     <section class="full-width-img">
-      <div class="container">
-        <h1 class="textheader">The Tile Guys USA</h1>
-        <h2 class="textsubheader">Your local tile installers</h2>
+      <div class= "fadein2 animated element-to-animate">
+        <div class="container">
+          <h1 class="textheader">The Tile Guys USA</h1>
+          <h2 class="textsubheader">Your local tile installers</h2>
+        </div>
       </div>
       </section>
 
       <section class="section-black">
         <div class="container">
           <div class="row">
-            <div class="col-sm-6">
-              <h2 class="besttiletext">Wilmington's Best Tile Crew</h2>
-              <p class="besttiletext"> Tile Guys USA is a company that deals with anything and everything related to tile. We strive to offer our customers with honesty and quality service. Tile
-Guys USA does everything from simple repairs to whole home remodels. We will
-consult with you throughout the entire process of your project to achieve the
-results you want.</p>
+            <div class= "fadein1 animated element-to-animate">
+              <div class="col-sm-6">
+                <h2 class="besttiletext">Wilmington's Best Tile Crew</h2>
+                <p class="besttiletext"> Tile Guys USA is a company that deals with anything and everything related to tile. We strive to offer our customers with honesty and quality service. Tile
+  Guys USA does everything from simple repairs to whole home remodels. We will
+  consult with you throughout the entire process of your project to achieve the
+  results you want.</p>
+              </div>
             </div>
             <div class="col-sm-6">
               <ul>
