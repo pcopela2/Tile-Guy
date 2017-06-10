@@ -176,19 +176,17 @@ body {
   padding-top: 100px;
   display:block;
   text-transform:uppercase;
-  letter-spacing:1px;
-  font-size:44px;
+  letter-spacing:8px;
+  font-size:60px;
   line-height:44px;
   color:white;
-  font-weight: bold;
-  font-size: 45px;
-  padding-bottom: -5px;
+  font-weight: bolder;
 }
 
 .row .aboutwork{
   display: block;
   letter-spacing: 0.2px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 30px;
   color: white;
   padding-bottom: 20px;
