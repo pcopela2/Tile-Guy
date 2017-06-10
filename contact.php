@@ -117,7 +117,7 @@ if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
           <div class="col-sm-6">
             <h3 style="text-align: center;">Contact Us For A Quote</h3>
             <div class="border"></div>
-            <form class="form-horizontal" name="contactform" method="post" >
+            <form class="form-horizontal" name="contactform" method="post" action="contact.php">
               <div class="label-text">
                 <label for="first_name">Name</label><span class="required">*</span>
               </div>
