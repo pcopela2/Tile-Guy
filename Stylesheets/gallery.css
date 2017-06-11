@@ -293,9 +293,25 @@ body {
   border:3px solid #FFFFFF; 
 }
 
+/* ================ Contact Break ================ */
+.contact-action{
+  background: rgba(188, 26, 4, 1);
+  padding-top: 27px;
+  padding-bottom: 26px;
+  padding-right: 0px;
+  padding-left: 0px;  
+}
 
+.inner-action{
+  color: white;
+  text-align: center;
+  font-family: 'exobold', sans-serif;
+  letter-spacing: 2px;
+  font-size: 2.7rem;
+}
 
-
+.inner-action a {color: white; text-decoration: none;}
+.inner-action a:hover {color: white;}
 
 
 /* ================ Custom Footer ================ */

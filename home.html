@@ -18,27 +18,19 @@
     <script>
       $(document).ready(function(){
             // hide our element on page load
-        $('.element-to-animate').css('opacity', 0);
+        $('.element-to-animate, .element-to-animate2').css('opacity', 0);
      
         $('.element-to-animate').waypoint(function() {
           $('.fadein1').addClass('fadeInLeft');
-        }, { offset: '10%' });
+        }, { offset: '11.2%' });
 
         $('.element-to-animate').waypoint(function() {
           $('.fadein2').addClass('fadeInUp');
         }, { offset: '90%' });
 
-        $('.element-to-animate').waypoint(function() {
-          $('.fadein3').addClass('fadeInRight');
-        }, { offset: '80%' });
-
-        $('.element-to-animate').waypoint(function() {
-          $('.service2').addClass('fadeInDown');
-        }, { offset: '30%' });
-
-        $('.element-to-animate').waypoint(function() {
-          $('.service3').addClass('fadeInDown');
-        }, { offset: '25%' });
+        $('.element-to-animate2').waypoint(function() {
+          $('.fadein3').addClass('fadeInUp');
+        }, { offset: '90%' });
       });
     </script>
 
@@ -185,14 +177,16 @@
       </section>
 
       <section class="sub-footer">
-        <div class="subfooter">
-          <p>Have Questions? Lets Talk</p>
-          <div class="questionline"></div>
-          <i class="fa fa-color fa-arrow-down large white"></i>
-        </div>
-          <div class="questioncontent">
-            <a class="questionbutton" href="contact.html">CONTACT</a>
+        <div class= "fadein3 animated element-to-animate2">
+          <div class="subfooter">
+            <p>Have Questions? Lets Talk</p>
+            <div class="questionline"></div>
+            <i class="fa fa-color fa-arrow-down large white"></i>
           </div>
+            <div class="questioncontent">
+              <a class="questionbutton" href="contact.html">CONTACT</a>
+            </div>
+        </div>
       </section>
 
       <section class="footer">
