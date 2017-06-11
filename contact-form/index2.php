@@ -31,7 +31,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail = new SimpleMail();
 
         $mail->setTo($config->get('bryan_macdonald@outlook.com'));
-        $mail->setFrom($config->get('emails.from'));
+        $mail->setFrom($config->get('bryan_macdonald@outlook.com'));
         $mail->setSender($name);
         $mail->setSenderEmail($email);
         $mail->setSubject($config->get('subject.prefix') . ' ' . $subject);
