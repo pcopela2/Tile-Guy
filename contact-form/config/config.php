@@ -6,7 +6,7 @@ return [
     ],
     'emails' => [
         'to'   => 'parkerobx@gmail.com',
-        'from' => 'bryan_macdonald@outlook.com'
+        'from' => ''
     ],
     'messages' => [
         'error'   => 'There was an error sending, please try again later.',
