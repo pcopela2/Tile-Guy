@@ -30,7 +30,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($name && $email && $emailIsValid && $subject && $message) {
         $mail = new SimpleMail();
 
-        $mail->setTo($config->get('emails.to'));
+        $mail->setTo($config->get('bryan_macdonald@outlook.com'));
         $mail->setFrom($config->get('emails.from'));
         $mail->setSender($name);
         $mail->setSenderEmail($email);
