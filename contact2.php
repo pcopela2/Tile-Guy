@@ -3,7 +3,7 @@
   // email of the person receiving the contact form (your email)
   $to = 'parkerobx@gmail.com';
   // your site url (for info in the email)
-  $site_url = 'http://mysite.com';
+  $site_url = 'https://tile-guy-usa.herokuapp.com/contact.php';
   $form_email_label = "Your email:";
   $form_message_label = "Your message:";
   $form_submit_label = "Send";
