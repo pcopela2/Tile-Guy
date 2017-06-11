@@ -5,8 +5,8 @@ return [
         'prefix' => '[Contact Form]'
     ],
     'emails' => [
-        'to'   => '',
-        'from' => ''
+        'to'   => 'parkerobx@gmail.com',
+        'from' => 'parkerobx@gmail.com'
     ],
     'messages' => [
         'error'   => 'There was an error sending, please try again later.',
