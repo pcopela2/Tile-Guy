@@ -45,6 +45,10 @@ h1 {
   transition: all 0.2s ease-out;
 }
 
+.navbar-header .navbar-brand{
+  color: black;
+}
+
 .navbar-header .navbar-brand:hover{
     color: rgba(188, 26, 4, 1);
 }
