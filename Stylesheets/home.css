@@ -228,8 +228,7 @@ body {
 .textsubheader{
   padding-top: 10px;
   padding-left: 50px;
-  font-weight: lighter;
-  text-shadow: 5px black;
+  text-shadow: 6px black;
   letter-spacing: 0.2rem;
 }
 
