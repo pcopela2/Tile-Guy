@@ -32,6 +32,10 @@ body {
   transition: all 0.2s ease-out;
 }
 
+.navbar-header .navbar-brand{
+  color: black;
+}
+
 .navbar-header .navbar-brand:hover{
     color: rgba(188, 26, 4, 1);
 }
@@ -208,22 +212,21 @@ body {
 .textheader{
   opacity: 0;
   color: white;
-  font-size: 65px;
-  letter-spacing: 1.2rem;
-  font-weight: bold;
-  padding-top: 285px;
+  font-family: CollegiateOutlineFLF;
+  padding-top: 200px;
   padding-left: 40px;
+  width: 65%;
   margin: 0 auto;
-    -webkit-transition: opacity 1.3s ease, -webkit-transform 1s ease;
-  transition: opacity 1.3s ease, -webkit-transform 1s ease;
-  transition: transform 1s ease, opacity 1s ease;
-  transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease;
+    -webkit-transition: opacity 1.4s ease, -webkit-transform 1.3s ease;
+  transition: opacity 1.4s ease, -webkit-transform 1s ease;
+  transition: transform 1.3s ease, opacity 1.3s ease;
+  transition: transform 1.4s ease, opacity 1.3s ease, -webkit-transform 1.3s ease;
   -webkit-transform: translateY(-40px);
           transform: translateY(-40px);
 }
 
 .textsubheader{
-  padding-top: 20px;
+  padding-top: 10px;
   padding-left: 50px;
   font-weight: lighter;
   text-shadow: 5px black;
@@ -609,3 +612,4 @@ li {list-style: none;}
       padding-bottom: 30px;
     }
 }
+
