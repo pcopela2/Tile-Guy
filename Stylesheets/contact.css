@@ -306,7 +306,8 @@ textarea {
 }
 
 .inner-action a {color: white; text-decoration: none;}
-.inner-action a:hover {color: white;}
+.inner-action a:hover {font-weight: bold;}
+
 
 .contactimage{
   background: url(../images/Contact-Tile-Guys.jpg) no-repeat top center;
