@@ -209,10 +209,15 @@ body {
 
 /* # Header text
 ================================ */
+@font-face {
+ font-family: 'CollegiateOutlineFLF';
+  src: url(.fonts/CollegiateOutlineFLF.ttf);
+}
+
 .textheader{
   opacity: 0;
   color: white;
-  font-family: CollegiateOutlineFLF;
+  font-family: 'CollegiateOutlineFLF';
   padding-top: 200px;
   padding-left: 40px;
   width: 75%;
