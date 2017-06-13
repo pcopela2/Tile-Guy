@@ -8,12 +8,15 @@
     <meta name="description" content="With more than 20 years of experience installing tile flooring, counters, and more, The Tile Guys knows how to serve the Wilmington area residents.">
     <meta name="title" content="Reliable Tile Contractors | Tile Guys USA">
     <link rel="icon" href="../../favicon.ico">
+    <!-- Bootstrap core CSS -->
+    <link href="Stylesheets/bootstrap.min.css" rel="stylesheet">
+    <link href="Stylesheets/animate.css" rel="stylesheet" >
+    <!-- Custom styles navbar -->
+    <link href="Stylesheets/about.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="Javascript/jquery.waypoints.min.js"></script>
     <script src="Javascript/bootstrap.min.js"></script>
-    <script src="Javascript/home.js"></script>
-    <script src="Javascript/about.js"></script>
 
     <script>
       $(document).ready(function(){
@@ -24,6 +27,32 @@
           $('.fadein1').addClass('fadeInUp');
         }, { offset: '90%' });
       });
+
+      $(window).scroll(function () {
+        var sc = $(window).scrollTop()
+        if (sc > 150) {
+          $("#main-navbar").addClass("navbar-scroll")
+        } 
+        else {
+          $("#main-navbar").removeClass("navbar-scroll")
+        }
+      });
+
+      $(function() {
+        setTimeout(function() {
+          $('.textheader').addClass('fadeIn');
+        }, 300);
+      });
+
+      $(function() {
+        setTimeout(function() {
+          $('.procontainer').addClass('fadeIn');
+        }, 300);
+      });
+
+
+
+
     </script>
     
     <script>
@@ -39,11 +68,7 @@
 
     <title>Tile Guy USA</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="Stylesheets/bootstrap.min.css" rel="stylesheet">
-    <link href="Stylesheets/animate.css" rel="stylesheet" >
-    <!-- Custom styles navbar -->
-    <link href="Stylesheets/about.css" rel="stylesheet">
+
   </head>
   <body>
     <header>
