@@ -9,6 +9,12 @@ body {
 /* # Header, Main Menu
 ================================ */
 
+@font-face {
+ font-family: 'CollegiateOutlineFLF';
+  src: url(../fonts/CollegiateOutlineFLF.ttf);
+}
+
+
 .navbar {
   opacity: 1;
   margin-bottom: 0;
