@@ -40,11 +40,11 @@
     <script>
       $(document).ready(function(){
             // hide our element on page load
-        $('.element-to-animate, .element-to-animate2').css('opacity', 0);
+        $('.element-to-animate, .element-to-animate2, .element-to-animate3').css('opacity', 0);
      
-        $('.element-to-animate').waypoint(function() {
+        $('.element-to-animate3').waypoint(function() {
           $('.fadein1').addClass('fadeInLeft');
-        }, { offset: '11.2%' });
+        }, { offset: '90%' });
 
         $('.element-to-animate').waypoint(function() {
           $('.fadein2').addClass('fadeInUp');
@@ -114,7 +114,7 @@
       <section class="section-black">
         <div class="container">
           <div class="row">
-            <div class= "fadein1 animated element-to-animate">
+            <div class= "fadein1 animated element-to-animate3">
               <div class="col-sm-6">
                 <h2 class="besttiletext">Wilmington's Best Tile Crew</h2>
                 <p class="besttiletext"> Tile Guys USA is a company that deals with anything and everything related to tile. We strive to offer our customers with honesty and quality service. Tile

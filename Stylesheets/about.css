@@ -200,7 +200,6 @@ h1 {
 }
 
 .row .work{
-  padding-top: 100px;
   display:block;
   text-transform:uppercase;
   letter-spacing:1px;
@@ -210,6 +209,14 @@ h1 {
   font-weight: bold;
   font-size: 45px;
   padding-bottom: -5px;
+}
+
+@media (min-width: 764px) {
+  .row .work{padding-top: 100px;}
+}
+
+@media (max-width: 764px) {
+  .row .work{padding-top: 10px;}
 }
 
 .row .divider-line{
